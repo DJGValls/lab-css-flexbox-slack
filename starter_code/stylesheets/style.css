@@ -8,3 +8,50 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+/*cabecera*/
+
+body{
+    background-color: #540B51;
+}
+
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    padding: 15px 0 0 10px;
+    width: 25%;
+}
+#search-button {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#search-button button{
+    background-color: #540B51;
+    border: none;
+    padding: 15px;
+}
+
+
+/**/
+
+#header-container{
+    text-align: center;
+}
+
+header h1 {
+    color: #F3EAE2;
+    font-size: 2.5rem;   
+}
+div p {
+    font-size: 1.1rem;
+}
+
+div p strong {
+    color: rgb(192, 167, 25);
+}
