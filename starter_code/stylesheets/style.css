@@ -55,3 +55,10 @@ div p {
 div p strong {
     color: rgb(192, 167, 25);
 }
+
+#google-button{
+    display: grid;
+    grid-template-rows: 50px 50px;
+    gap: 20px;
+    justify-content: center;
+}
